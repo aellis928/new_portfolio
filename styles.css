@@ -1,0 +1,118 @@
+/*#2A5B84- navy blue*/ 
+/*#AAC4D1- blue/grey light*/ 
+/*#EBC137- gold*/ 
+/*#FEFAE1- offwhite/grey*/ 
+/*#BD8025- offwhite/grey*/
+
+
+body{
+	text-align: center;
+	font-family: Trebuchet MS;
+}
+
+#container{
+	height:1000px;
+	background-color: black;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+#left, #right{
+	height:1000px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#right{
+	background-color:#FEFAE1;
+	width:800px;
+	margin-left:-4px;
+	overflow:auto;
+
+}
+
+#left{
+	color:#FEFAE1;
+	background-color: #2A5B84;
+	width:400px;
+}
+/*star of editing the left side*/
+
+/*profile image here*/
+#profile_img{
+	border-radius: 10px;
+	position:relative;
+	margin-top: 20px;
+}
+
+/*style the name*/
+#name p{
+	font-size:50px;
+	margin-top: 10px;
+}
+
+#title p{
+	font-size: 25px;
+	margin-top:-40px;
+	color:#EBC137;
+	margin-bottom: -5px;
+}
+
+#location{
+	margin-bottom: 30px;
+	margin-top: 20px;	
+}
+
+#location p{
+	font-size: 25px;
+	margin-bottom: -6px;
+	color:#EBC137;
+}
+
+/*heres the hover for duties*/
+#on_hover{
+	margin-top: 5px;
+	font-size: 25px;
+	color:#EBC137;
+}
+
+#title span, #location span{
+	font-size: 10px;
+	margin-top:-10px;
+}
+
+.nav p{
+	color:#EBC137;
+	display: inline-block;
+}
+
+#quote{
+	border: 2px dotted white;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+a{
+	color:#EBC137;
+	text-decoration:none;
+}
+
+li {
+		color:#EBC137;
+		list-style: none;
+
+}
+
+.tabcontent{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
