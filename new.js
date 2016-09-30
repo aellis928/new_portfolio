@@ -3,7 +3,7 @@ $(document).ready(function(){
 })
 
 // this function is how the duties will display
-var duties = ['Wife', 'Mother', 'Daughter', 'Sister', 'Tennis Player', 'Avid Reader', 'Runner', 'Learner', 'Listener', 'Explorer']
+var duties = ['Wife','Learner', 'Listener', 'Explorer', 'Creator', 'Team Player']
 var i = 0
 setInterval(function(){
 	document
@@ -15,17 +15,24 @@ setInterval(function(){
 }, 500);
 
 
-function change_tabs(){
-	console.log('hi')
-	var i;
-	var tabcontent = document.getElementsByClassName("tabcontent");
+function change_tab(event, tab_name){
+	console.log(tab_name)
+	var tabcontent, tablinks, i;
+
+	tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
-    	console.log('hello')
         tabcontent[i].style.display = "none";
     }
+
+     tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    document.getElementById(tab_name).style.display = "block";
+    event.currentTarget.className += " active";
 }
 
-change_tabs();
 
 
 

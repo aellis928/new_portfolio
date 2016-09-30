@@ -18,7 +18,7 @@ body{
 }
 
 #left, #right{
-	height:1000px;
+	height:900px;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -28,6 +28,7 @@ body{
 	width:800px;
 	margin-left:-4px;
 	overflow:auto;
+	color:#2A5B84;
 
 }
 
@@ -97,17 +98,53 @@ a{
 	text-decoration:none;
 }
 
-li {
-		color:#EBC137;
-		list-style: none;
 
+
+#nav_class{
+	text-align: center;
 }
+
+.navigation{
+	padding:20px;
+	text-align: center;
+	color:#EBC137;
+	list-style: none;
+	margin-left: -40px;
+}
+
 
 .tabcontent{
 	display: none;
 }
 
+.tabcontent.active{
+	display: block;
+}
 
+#Home i{
+	font-size: 100px;
+}
+
+.content_description{
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+		border-right:1px solid #EBC137;
+	padding-top: 20px;
+	width:250px;
+	height:530px;
+	font-size: 20px;
+}
+
+.content_description span{
+	font-size: 12px;
+	margin-top: -50px;
+	color:#EBC137;
+	background-color:#2A5B84;
+	border-radius: 5px;
+	padding:10px;
+
+}
 
 
 

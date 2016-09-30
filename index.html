@@ -15,7 +15,7 @@
 				<img src='images/aeriel.jpg' id='profile_img'>
 			</div>
 			<!-- Information  -->
-			<div id='name'>
+			<!-- <div id='name'>
 				<p>Aeriel Ellis</p>
 			</div>
 			<div id='title'>
@@ -28,43 +28,94 @@
 			<div id='location'>
 				<p>San Ramon, CA</p>
 				<span>is where you will find me these days</span>
-			</div>
-			<div id='quote'>
+			</div> -->
+			<!-- <div id='quote'>
 				<p>F.E.A.R</p>
 				<p>Face everything and rise</p>
-			</div>
+			</div> -->
 			<div id='Navigation'>
 			</div>
-				<ul>
-					<li>
+				<ul id='nav_class'>
+					<li class=' navigation'>
 					<i class="fa fa-home" aria-hidden="true"></i>
-					<a href="#" class="tablinks" onclick="change_tab(event, Home)">Home</a>
+					<a href="#" class="tablinks" onclick="change_tab(event, 'Home')">Home</a>
 					</li>
-					<li>
+					<li class='navigation'>
 					<i class="fa fa-desktop" aria-hidden="true"></i>
-					<a href="#" class="tablinks" onclick="change_tab(event, Projects)">Projects</a>
+					<a href="#" class="tablinks" onclick="change_tab(event, 'Projects')">Projects</a>
 					</li>
-					<li>
+					<li class='navigation'>
 					<i class="fa fa-keyboard-o" aria-hidden="true"></i>
-					<a href="#" class="tablinks" onclick="change_tab(event, Technolgoies)">Technologies</a>
+					<a href="#" class="tablinks" onclick="change_tab(event, 'Technologies')">Technologies</a>
 					</li>
-					<li>
+					<li class='navigation'>
 					<i class="fa fa-phone-square" aria-hidden="true"></i>
-					<a href="#" class="tablinks" onclick="change_tab(event, Contact)">Contact Me</a>
+					<a href="#" class="tablinks" onclick="change_tab(event, 'Contact')">Contact Me</a>
 					</li>
 		</div>
 		<div id='right'>
 			<div id='container_right'>
-				<div class='tabcontent'>
-					<p>hi</p>
-				</div>
-				<div class='tabcontent'>
-					<p>hi</p>
-				</div>
-				<div class='tabcontent'>
-					<p>hi</p>
-				</div>
+				<div id='Home' class=' active tabcontent'>
+					<div id='name'>
+						<p>Aeriel Ellis</p>
+					</div>
+					<div id='title'>
+						<p>Web Developer</p>
+						<span>by day</span>
+						<div id='on_hover'>
+						</div>
+						<span>by night</span>
+					</div>
+					<div id='location'>
+						<p>San Ramon, CA</p>
+						<span>is where you will find me these days</span>
+					</div>
+					<!-- <div class='intro'>
+						<h1>Hello nice to meet you!</h1>
+					</div> -->
+					<div class='content_description'>
+						<h1>I enjoy...</h1>
+						<p><i class="fa fa-heart" aria-hidden="true"></i></p>
+						<h4>Web Development</h4>
+						<span>Because that's what I Do</span>
+						<h4>Tennis</h4>
+						<p><span>My First love</span></p>
+						<h4>Staying Active</h4>
+						<p><span>Work off the coffee!</span></p>
+					</div>
+					<div class='content_description'>
+						<h1>Education</h1>
+						<p><i class="fa fa-graduation-cap" aria-hidden="true"></i></p>
+						<p>Coding Dojo Alum</p>
+						<span>AKA the Dojo; live, eat, breathe, CODE</span>
+						<p>University of Texas at Austin</p>
+						<p><span>2x All-American</span></p>
+						<p><span>Kinesiology Major</span></p>
+						<p><span>Team Captain</span></p>
 
+					</div>
+					<div class='content_description'>
+						<h1>Skills</h1>
+						<p><i class="fa fa-keyboard-o" aria-hidden="true"></i></p>
+						<p>Front-End</p>
+						<p><span>Where my passion is</span></p>
+						<p>Back-End</p>
+						<p><span>Let's Not Forget Anything</span></p>
+						<p>Curiosity</p>
+						<p><span>Learning Every Day</span></p>
+						<p><span>Quora Reader</span></p>
+					</div>
+
+				</div>
+				<div id='Projects' class='tabcontent'>
+					<p>projects</p>
+				</div>
+				<div id='Technologies' class='tabcontent'>
+					<p>technologies</p>
+				</div>
+				<div id='Contact' class='tabcontent'>
+					<p>contact</p>
+				</div>
 			</div>
 
 		</div>
