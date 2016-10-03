@@ -11,14 +11,14 @@ body{
 }
 
 #container{
-	height:1000px;
+	height:760px;
 	background-color: black;
-	padding-top: 2px;
+	padding-top: 10px;
 	padding-bottom: 2px;
 }
 
 #left, #right{
-	height:900px;
+	height:750px;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -50,6 +50,10 @@ body{
 #name p{
 	font-size:50px;
 	margin-top: 10px;
+}
+
+#title{
+	margin-top: 70px;
 }
 
 #title p{
@@ -99,7 +103,7 @@ a{
 }
 
 
-
+/*things on the right*/
 #nav_class{
 	text-align: center;
 }
@@ -116,10 +120,19 @@ a{
 .tabcontent{
 	display: none;
 }
+/*how to tget a border around the page icon that it is on*/
+.tablinks.active{
+	/*border:2px dotted #EBC137;*/
+	font-size: 30px;
+}
+
 
 .tabcontent.active{
 	display: block;
 }
+
+
+
 
 #Home i{
 	font-size: 100px;
@@ -146,7 +159,15 @@ a{
 
 }
 
+#name{
+	margin-top: 30px;
+	
+}
 
+.navigation:hover{
+	background-color: #AAC4D1;
+	color:#2A5B84;
+}
 
 
 
